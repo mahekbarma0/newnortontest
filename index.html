@@ -168,14 +168,17 @@ footer{display:none;}
         top:390px;
     }
 
+    /* ✅ Hide bottom sections on mobile */
     .sections{
-        flex-direction:column;
-        position:static;
-        margin-top:430px;
-        padding:20px;
+        display:none;
     }
 
+    /* ✅ Prevent phone number from splitting */
+    .number{
+        white-space:nowrap;
+    }
 }
+
 </style>
 </head>
 
